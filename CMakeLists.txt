@@ -38,6 +38,7 @@ find_package(std_msgs REQUIRED)
 set(msg_files
   "msg/Touch.msg"
   "msg/Color.msg"
+  "msg/JointEffort.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
