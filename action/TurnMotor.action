@@ -1,0 +1,14 @@
+std_msgs/Header header
+int8 power
+float64 tacho_units
+bool brake
+int8 timeout
+bool emulate
+---
+std_msgs/Header header
+float64 start_position
+float64 end_position
+---
+std_msgs/Header header
+float64 start_position
+float64 current_position
