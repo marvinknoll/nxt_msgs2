@@ -42,9 +42,14 @@ set(action_files
   "action/TurnMotor.action"
 )
 
+set(service_files
+  "srv/MotorConfigs.srv"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
   ${action_files}
+  ${service_files}
   DEPENDENCIES std_msgs action_msgs
 )
 

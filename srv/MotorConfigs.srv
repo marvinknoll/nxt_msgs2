@@ -1,0 +1,7 @@
+---
+std_msgs/Header header
+string[] motor_ports
+string[] motor_types
+string[] motor_names
+string[] motor_mimic_names
+float64[] motor_mimic_gear_ratios
