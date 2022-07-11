@@ -44,6 +44,7 @@ set(action_files
 
 set(service_files
   "srv/MotorConfigs.srv"
+  "srv/RobotDimensions.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
