@@ -5,4 +5,4 @@ string[] motor_types
 string[] motor_names
 string[] motor_mimic_names
 float64[] motor_mimic_gear_ratios
-bool[] invert_efforts
+bool[] invert_directions
