@@ -5,7 +5,7 @@
   <version>0.0.0</version>
   <description>Message and action interfaces for nxt_ros2</description>
   <maintainer email="marvin.knoll@protonmail.com">marvin</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0 license</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
