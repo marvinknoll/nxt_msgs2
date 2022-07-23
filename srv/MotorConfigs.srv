@@ -1,4 +1,8 @@
 ---
+# Response: holds motor configurations defined in the .yaml config file
+
+# All arrays in this message should have the same length, or be empty.
+
 std_msgs/Header header
 string[] motor_ports
 string[] motor_types

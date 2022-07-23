@@ -1,5 +1,10 @@
 ---
+
+# Response: holds robot dimensions defined in the .yaml config file
+
+# All arrays in this message should have the same length, or be empty.
+
 std_msgs/Header header
-float64 axle_track
-float64 wheel_radius
-float64 rad_per_s_to_effort
+float64 axle_track # distance between the left and the right drive wheel in meters
+float64 wheel_radius # wheel radius in meters
+float64 rad_per_s_to_effort # multiplier

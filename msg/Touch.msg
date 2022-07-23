@@ -1,2 +1,2 @@
 std_msgs/Header header
-bool touch
+bool touch # True = pressed, False = not pressed

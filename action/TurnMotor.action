@@ -1,14 +1,25 @@
+# Goal: holds the parameters for nxt.motor.Basemotor.turn
+# (https://ni.srht.site/nxt-python/latest/api/motor.html#nxt.motor.BaseMotor.turn)
+
 std_msgs/Header header
-int8 power
-float64 tacho_units
+int8 power # value between -127 and 128
+float64 tacho_units # radians
 bool brake
-int8 timeout
+int8 timeout # seconds
 bool emulate
+
 ---
+# Response: holds the position of the motor before the start of the action
+# and the position of the motor at the end of the action. 
+
 std_msgs/Header header
 float64 start_position
 float64 end_position
+
 ---
+# Feedback: holds the position of the motor before the start of the action
+# and the position it is in at the time of sending the feedback.
+
 std_msgs/Header header
 float64 start_position
 float64 current_position
