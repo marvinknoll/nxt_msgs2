@@ -1,0 +1,5 @@
+---
+# Response: battery voltage in millivolt
+
+std_msgs/Header header
+int64 battery_voltage

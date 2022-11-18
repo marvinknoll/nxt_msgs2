@@ -43,6 +43,7 @@ set(action_files
 )
 
 set(service_files
+  "srv/GetBatteryLevel.srv"
   "srv/MotorConfigs.srv"
   "srv/RobotDimensions.srv"
 )
