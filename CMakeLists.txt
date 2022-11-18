@@ -36,6 +36,7 @@ set(msg_files
   "msg/Touch.msg"
   "msg/Color.msg"
   "msg/JointEffort.msg"
+  "msg/RobotAction.msg"
 )
 
 set(action_files
